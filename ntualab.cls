@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ntualab}[NTUA LAB REPORT]
-\LoadClass[a4paper,12pt]{extreport}
+\LoadClass[a4paper,12pt]{report}
 %%----------------PACKAGES------------------%%
 
 %%----------------GREEK SETUP---------------%%
@@ -120,4 +120,9 @@
 \vspace{20ex}
 \end{center}
 }
-\date{Αθήνα #7}}
+\date{Αθήνα #7}
+\hypersetup{
+  pdfauthor={#4},
+  pdftitle={#1}
+  }
+}
