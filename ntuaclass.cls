@@ -12,7 +12,7 @@
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
 \RequirePackage{amssymb,amsfonts,amsmath,indentfirst}
 \RequirePackage{graphicx,caption}
-\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
+%\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{tocloft}
 \RequirePackage{fancyhdr}
@@ -126,7 +126,7 @@
 \normalsize{Μ}\small{ΗΧΑΝΙΚΩΝ}\\
 \vspace{10ex}
 \if\kel@Type\@empty
-\huge\textbf{\kel@Title} \\
+\Large\textbf{\kel@Title} \\
 \vspace{12ex}
 \else
 \huge{\textbf{\kel@Type:}}\\
@@ -135,19 +135,18 @@
 \vspace{10ex}
 \fi
 \large
-Εργασία για το μάθημα του $\kel@Eks^{ου}$ εξαμήνου: \kel@Mathima \\
+\textit{Εργασία για το μάθημα του $\kel@Eks^{ου}$ εξαμήνου:}\\
+\Large \textbf{\kel@Mathima} \\
 \vspace{8ex}
-\begin{align*}
-\Large \text{Ονοματεπώνυμο:}& \quad \textbf{\kel@Onomatepwnumo}\\
+\Large Ονοματεπώνυμο: \textbf{\kel@Onomatepwnumo}\\
 \vspace{2ex}
-\large \text{Aριθμός Μητρώου:}& \quad  \textbf{\kel@Armhtrwou}\\
+\large  Aριθμός Μητρώου:   \textbf{\kel@Armhtrwou}\\
 \vspace{2ex}
 \if\kel@Omada\@empty
 \else
-\large \text{Ομάδα:}& \quad \textbf{${\kel@Omada}^η$}\\
-\fi
-\end{align*}
+\large Ομάδα: \textbf{${\kel@Omada}^η$}\\
 
+\fi
 \vspace{24ex}
 Αθήνα \kel@Hmeromhnia
 \end{center}
