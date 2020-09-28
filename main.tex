@@ -1,11 +1,47 @@
-\documentclass{ntualab}
-\ntuatitle{Τίτλος}{αρ. εξ.}{μάθημα}{ον/μο}{κωδικός}{ομάδα}{ημερομηνία}
+\documentclass{ntuaclass} % η κλάση του εγγαφου
+\usepackage{lipsum} % το χρησιμοποιώ για dummy-text
+
+% ο φάκελος με τις εικόνες
+\graphicspath{{./images/}}
+
+% το αρχείο με τις βιβλιογραφικές αναφορές  uncomment για βιβλιογραφία
+%\bibliography{bibliography.bib} 
+
+% ο τίτλος του εγγράφου
+\Type{τέστ και τεστ}
+\Title{Τίτλος}
+\Eks{7}
+\Mathima{Ρευστά}
+\Onomatepwnumo{\en{Kellaris}}
+\Armhtrwou{02117010}
+\Omada{7} % προαιρετικό 
+\Hmeromhnia{\today}
+
+% διορθώνει τα μεταδεδομένα του αρχείου
+\fixmetadata
+
+%αλλαγή τίτλου του κεφαλαίου π.χ. ερώτημα
+%\setchapname{Ερώτημα} uncomment για χρήση
+
+% χρήση της εντολής ώστε να κάνει compile μόνο το κεφάλαιο που αλλάξαμε
+%\includeonly{chapters/3rdchapter} uncomment για χρήση
+
 \begin{document}
-\maketitle
-\tableofcontents
-    \chapter{τεστ}
-    \section{tεστ}
-    \en{ole}
-    \svg{ress.pdf_tex}{1}{2}
-    \chapter{fsgsd}
+
+% δημιουργεί το εξώφυλλο
+\ntuatitle
+
+%δημιουργεί τον πίνακα περιεχομένων με σωστό τρόπο
+\maketoc
+
+% μια καλή πρακτική είναι κάθε κεφάλαιο να γράφεται σε ξεχωριστό αρχείο
+\include{chapters/1stchapter}
+\include{chapters/2ndchapter}
+\include{chapters/3rdchapter}
+
+% uncomment για βιβλιογραφία
+
+%\addcontentsline{toc}{chapter}{Βιβλιογραφία}
+%\printbibliography
+
 \end{document}
