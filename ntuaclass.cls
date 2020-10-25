@@ -10,7 +10,7 @@
 \RequirePackage{alphabeta,csquotes}
 
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
-\RequirePackage{amssymb,amsfonts,amsmath,indentfirst}
+\RequirePackage{amssymb,amsfonts,amsmath,physics}
 \RequirePackage{graphicx,caption}
 %\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
@@ -22,6 +22,7 @@
 \RequirePackage{subfig}
 \RequirePackage{booktabs}
 \RequirePackage{siunitx}
+\RequirePackage{indentfirst}
 \RequirePackage{extarrows}
 \RequirePackage{microtype}
 \RequirePackage[bookmarksnumbered=true]{hyperref}
