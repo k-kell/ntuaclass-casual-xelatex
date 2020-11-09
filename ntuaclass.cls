@@ -149,7 +149,7 @@
 
 \fi
 \vspace{24ex}
-Αθήνα \kel@Hmeromhnia
+Αθήνα, \kel@Hmeromhnia
 \end{center}
 \end{titlepage}
 
