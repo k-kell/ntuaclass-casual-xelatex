@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ntuaclass}[NTUA HOMEWORK TEMPLATE]
-\LoadClass[a4paper,12pt]{report}
+\LoadClass[a4paper,12pt]{article}
 %%----------------PACKAGES------------------%%
 
 %%----------------GREEK SETUP---------------%%
@@ -12,7 +12,7 @@
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
 \RequirePackage{amssymb,amsfonts,amsmath,physics}
 \RequirePackage{graphicx,caption}
-%\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
+\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{tocloft}
 \RequirePackage{fancyhdr}
@@ -34,7 +34,7 @@
 \fancyhf{}
 \fancyhead[L]{\leftmark}
 \fancyhead[R]{\thepage}
-\fancyfoot[C]{\thepage}
+%\fancyfoot[C]{\thepage}
 
 %%---------------CORRECT THOUSAND SEP-------%%
 \sisetup{group-digits=true,
@@ -54,7 +54,7 @@
 
 %%--------------TOC DOT SETUP---------------%%
 
-\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
 
@@ -181,7 +181,7 @@
 
 %%-------------CUSTOM CHAP NAME------------%%
 
-\newcommand{\setchapname}[1]{
-\addto\captionsgreek{
-   \renewcommand{\chaptername}{#1}}
-}
+%\newcommand{\setchapname}[1]{
+%\addto\captionsgreek{
+%   \renewcommand{\chaptername}{#1}}
+%}
