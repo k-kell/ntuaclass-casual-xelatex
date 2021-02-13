@@ -2,7 +2,7 @@
 ## Πρότυπο σε LaTex για εργασιακή αναφορά
 Για χρήση του προτύπου αρχικά το κατεβάζετε:
 
-`Download as zip` ή `git clone https://github.com/k-kell/ntuaclass.git`
+`Download as zip` ή `git clone https://github.com/k-kell/ntuaclass-casual.git`
 
 
 Η τυπική δομή του φακέλου είναι η παρακάτω:
