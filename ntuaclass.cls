@@ -1,18 +1,18 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ntuaclass}[NTUA HOMEWORK TEMPLATE]
+\ProvidesClass{ntuaclass2}[NTUA HOMEWORK TEMPLATE]
 \LoadClass[a4paper,12pt]{article}
 %%----------------PACKAGES------------------%%
 
 %%----------------GREEK SETUP---------------%%
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[LGR,T1]{fontenc}
-\RequirePackage[english,greek]{babel}
+\RequirePackage{xltxtra, xgreek}
 \RequirePackage{alphabeta,csquotes}
+\setmainfont{NewComputerModern}
 
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
 \RequirePackage{amssymb,amsfonts,amsmath,physics}
 \RequirePackage{graphicx,caption}
-\RequirePackage[backend=bibtex,style=numeric,language=auto,autolang=other]{biblatex}
+\RequirePackage{unicode-math}
+\RequirePackage[style=numeric]{biblatex}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{tocloft}
 \RequirePackage{fancyhdr}
@@ -21,8 +21,8 @@
 \RequirePackage{float}
 \RequirePackage{subfig}
 \RequirePackage{booktabs}
-\RequirePackage{siunitx}
 \RequirePackage{indentfirst}
+\RequirePackage{siunitx}
 \RequirePackage{extarrows}
 \RequirePackage{microtype}
 \RequirePackage[bookmarksnumbered=true]{hyperref}
@@ -32,9 +32,12 @@
 \setlength{\parskip}{1em}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\leftmark}
-\fancyhead[R]{\thepage}
-%\fancyfoot[C]{\thepage}
+\fancyhead[L]{\textit{\nouppercase{\leftmark}}}
+\fancyhead[R]{\textit{\kel@Mathima}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
 
 %%---------------CORRECT THOUSAND SEP-------%%
 \sisetup{group-digits=true,
@@ -54,13 +57,8 @@
 
 %%--------------TOC DOT SETUP---------------%%
 
-%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
-
-
-%%--------------ENGLISH TEXT----------------%%
-   \newcommand{\en}[1]{\foreignlanguage{english}{#1}}
 
 %%--------------INSERT PDF/JPEG ETC---------%%
 
@@ -181,7 +179,7 @@
 
 %%-------------CUSTOM CHAP NAME------------%%
 
-%\newcommand{\setchapname}[1]{
-%\addto\captionsgreek{
-%   \renewcommand{\chaptername}{#1}}
-%}
+\newcommand{\setchapname}[1]{
+\addto\captionsgreek{
+   \renewcommand{\chaptername}{#1}}
+}
