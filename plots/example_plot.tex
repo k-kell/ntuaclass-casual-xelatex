@@ -8,7 +8,7 @@
     ymin=0,ymax=750,
     xtick={0,500,1000,1500,2000,2500,3000,3500,4000},
     ytick={0,150,300,450,600,750},
-    xlabel={Απόσταση \en{m}},
+    xlabel={Απόσταση $m$},
     ylabel={Συγκέντρωση $μg/m^3$},
     legend pos=north east,
     ymajorgrids=true,
@@ -28,9 +28,9 @@
     \addplot[color=green,no marks]  
       table[x=Distance, y=Concentration ,col sep=comma]
       {plots/15_0.2_0.77_0.24.csv };
-    \addlegendentry{\en{H = 5m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}}
-    \addlegendentry{\en{H = 10m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}}
-    \addlegendentry{\en{H = 15m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}}
+    \addlegendentry{H = 5m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}
+    \addlegendentry{H = 10m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}
+    \addlegendentry{H = 15m - $z_0 = 0.2m$ - bowen = 0.77 - albedo = 0.16}
     \end{axis}
   \end{tikzpicture}
     \caption{Γράφημα συγκεντρώσεων με παράμετρο το ύψος καμινάδας}
