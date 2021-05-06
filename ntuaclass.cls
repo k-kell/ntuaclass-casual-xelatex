@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ntuaclass2}[NTUA HOMEWORK TEMPLATE]
+\ProvidesClass{ntuaclass}[NTUA HOMEWORK TEMPLATE]
 \LoadClass[a4paper,12pt]{article}
 %%----------------PACKAGES------------------%%
 
