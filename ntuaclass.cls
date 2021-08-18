@@ -30,6 +30,7 @@
 
 %%---------------HEADER/FOOTER STYLES-------%%
 \setlength{\parskip}{1em}
+\setlength{\headheight}{15pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\textit{\nouppercase{\leftmark}}}
