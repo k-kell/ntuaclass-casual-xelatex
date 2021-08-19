@@ -26,6 +26,13 @@
 \RequirePackage{extarrows}
 \RequirePackage{microtype}
 \RequirePackage[bookmarksnumbered=true]{hyperref}
+\RequirePackage{cleveref}
+
+
+%%-----------------CLEVEREF SETUP-----------%%
+\crefname{equation}{εξίσωση}{εξισώσεις}
+\renewcommand{\crefrangeconjunction}{--}
+\renewcommand{\crefpairconjunction }{ και } 
 
 
 %%---------------HEADER/FOOTER STYLES-------%%
