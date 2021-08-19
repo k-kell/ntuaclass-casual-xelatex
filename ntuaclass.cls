@@ -31,8 +31,8 @@
 
 %%-----------------CLEVEREF SETUP-----------%%
 \crefname{equation}{εξίσωση}{εξισώσεις}
-\renewcommand{\crefrangeconjunction}{--}
-\renewcommand{\crefpairconjunction }{ και } 
+\newcommand{\crefrangeconjunction}{--}
+\newcommand{\crefpairconjunction }{ και } 
 
 
 %%---------------HEADER/FOOTER STYLES-------%%
