@@ -18,6 +18,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{tikz}
 \RequirePackage{pgfplots}
+\RequirePackage{gnuplot-lua-tikz}
 \RequirePackage{float}
 \RequirePackage{subfig}
 \RequirePackage{booktabs}
@@ -31,6 +32,7 @@
 
 %%-----------------CLEVEREF SETUP-----------%%
 \crefname{equation}{εξίσωση}{εξισώσεις}
+\crefname{equation}{Σχήμα}{Σχήματα}
 \newcommand{\crefrangeconjunction}{--}
 \newcommand{\crefpairconjunction }{ και } 
 
