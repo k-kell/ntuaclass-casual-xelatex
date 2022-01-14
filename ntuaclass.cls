@@ -32,7 +32,7 @@
 
 %%-----------------CLEVEREF SETUP-----------%%
 \crefname{equation}{εξίσωση}{εξισώσεις}
-\crefname{equation}{Σχήμα}{Σχήματα}
+\crefname{figure}{Σχήμα}{Σχήματα}
 \newcommand{\crefrangeconjunction}{--}
 \newcommand{\crefpairconjunction }{ και } 
 
