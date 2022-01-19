@@ -6,7 +6,7 @@
 %%----------------GREEK SETUP---------------%%
 \RequirePackage{xltxtra, xgreek}
 \RequirePackage{alphabeta,csquotes}
-\setmainfont{NewComputerModern}
+\setmainfont{NewComputerModern10}
 
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
 \RequirePackage{amssymb,amsfonts,amsmath,physics}
