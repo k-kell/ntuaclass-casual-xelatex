@@ -8,10 +8,9 @@
 \RequirePackage{alphabeta,csquotes}
 
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
-\RequirePackage[default]{fontsetup}
-\RequirePackage{amssymb,amsfonts,amsmath,physics}
+\RequirePackage[default]{fontsetup} %already loads fontspec and unicode-math
+\RequirePackage{amsmath,physics}
 \RequirePackage{graphicx,caption}
-\RequirePackage{unicode-math}
 \RequirePackage[style=numeric]{biblatex}
 \RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{tocloft}
