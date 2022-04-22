@@ -4,11 +4,11 @@
 %%----------------PACKAGES------------------%%
 
 %%----------------GREEK SETUP---------------%%
-\RequirePackage{xltxtra, xgreek}
+\RequirePackage{xgreek}
 \RequirePackage{alphabeta,csquotes}
-\setmainfont{NewComputerModern10}
 
 %%---------------SYMBOLS-FONTS-GRAPHICS-----%%
+\RequirePackage[default]{fontsetup}
 \RequirePackage{amssymb,amsfonts,amsmath,physics}
 \RequirePackage{graphicx,caption}
 \RequirePackage{unicode-math}
