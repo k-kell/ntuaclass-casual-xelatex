@@ -3,12 +3,13 @@
 \LoadClass[a4paper,12pt]{article}
 %%----------------PACKAGES------------------%%
 
+%%----------------FONTS---------------------%%
+\RequirePackage[default]{fontsetup} % already loads fontspec and unicode-math
 %%----------------GREEK SETUP---------------%%
 \RequirePackage{xgreek}
 \RequirePackage{alphabeta,csquotes}
 
-%%---------------SYMBOLS-FONTS-GRAPHICS-----%%
-\RequirePackage[default]{fontsetup} %already loads fontspec and unicode-math
+%%---------------SYMBOLS & GRAPHICS-----%%
 \RequirePackage{amsmath,physics}
 \RequirePackage{graphicx,caption}
 \RequirePackage[style=numeric]{biblatex}
